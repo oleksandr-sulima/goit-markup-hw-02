@@ -7,21 +7,17 @@
 /* Header */
 
 .header {
-  width: 1440px;
-  height: 72px;
   flex-shrink: 0;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .logo {
-  color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  color: var(--IRIS, #2e2f42);
+  font-family: Raleway, sans-serif;
   font-size: 18px;
-  line-height: 1.166;
+  line-height: 1.17;
+  font-weight: 700;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -31,11 +27,15 @@
 }
 
 .nav-links {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.nav-links:hover .nav-links:focus {
+  color: #404bbf;
 }
 
 .header-adress {
@@ -44,6 +44,11 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  font-style: normal;
+}
+
+.header-adress:hover .header-adress:focus {
+  color: #404bbf;
 }
 
 /* Top main part */
@@ -58,19 +63,22 @@
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.071;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
 .button {
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 4px;
-  background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.button:hover .button:focus {
+  color: #404bbf;
 }
 
 /* Our Strenghts */
@@ -79,6 +87,7 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .our-strengths li p {
@@ -96,9 +105,13 @@
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+.our-team {
+  background-color: #ffffff;
 }
 
 .our-team li h3 {
@@ -121,6 +134,16 @@
 
 /* Our Portfolio */
 
+.our-portfolio-hedder {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
 .our-portfolio h2 {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
@@ -138,6 +161,9 @@
 }
 
 /* Footer */
+.footer {
+  background-color: #2e2f42;
+}
 
 .footer-descr {
   color: var(--CLOUD, #f4f4fd);
