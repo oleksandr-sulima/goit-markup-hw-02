@@ -54,7 +54,7 @@
 .header-adress:focus {
   color: #404bbf;
 }
-
+/* Section #1 */
 /* Top main part */
 .top-part-main {
   background: var(--NAVY-BLUE, #2e2f42);
@@ -83,11 +83,11 @@
 
 .button:hover,
 .button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
-
+/* Section #2 */
 /* Our Strenghts */
-.our-strengths li h3 {
+.our-strengths-headers {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -95,15 +95,15 @@
   letter-spacing: 0.02em;
 }
 
-.our-strengths li p {
+.our-strengths-text {
   color: var(--SLATE, #434455);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
-
+/* Section #3 */
 /* Our Team */
 .our-team-header {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -133,9 +133,8 @@
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-
+/* Section #4 */
 /* Our Portfolio */
-
 .our-portfolio-hedder {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
