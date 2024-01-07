@@ -20,7 +20,7 @@
   text-transform: uppercase;
 }
 
-.logo-web-part {
+.logo-studio-part-headder {
   color: var(--IRIS, #2e2f42);
 }
 
@@ -176,4 +176,8 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.logo-studio-part-footer {
+  color: #f4f4fd;
 }
