@@ -105,20 +105,25 @@
 }
 /* Section #3 */
 /* Our Team */
+.our-team {
+  background-color: #f4f4fd;
+}
+
 .our-team-header {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
-.our-team {
+.our-team-list {
   background-color: #ffffff;
 }
 
-.our-team li h3 {
+.our-team-header {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -126,7 +131,7 @@
   letter-spacing: 0.4px;
 }
 
-.our-team li p {
+.our-team-text {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
