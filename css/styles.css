@@ -7,8 +7,6 @@
 /* Header */
 
 .header {
-  flex-shrink: 0;
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
 
@@ -61,17 +59,20 @@
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .button {
   color: var(--WHITE, #fff);
-  font-family: Roboto;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
 .button:hover .button:focus {
@@ -99,7 +100,6 @@
 /* Our Team */
 .our-team-header {
   color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -113,7 +113,6 @@
 
 .our-team li h3 {
   color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -122,7 +121,6 @@
 
 .our-team li p {
   color: var(--SLATE, #434455);
-  text-align: center;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -133,7 +131,6 @@
 
 .our-portfolio-hedder {
   color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
