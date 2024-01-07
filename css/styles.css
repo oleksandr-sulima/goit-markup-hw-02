@@ -53,14 +53,11 @@
 
 /* Top main part */
 .top-part-main {
-  width: 1440px;
-  height: 600px;
   background: var(--NAVY-BLUE, #2e2f42);
 }
 
 .main-title {
   color: var(--WHITE, #fff);
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
