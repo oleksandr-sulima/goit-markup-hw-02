@@ -32,8 +32,13 @@
   letter-spacing: 0.32px;
 }
 
-.nav-links:hover .nav-links:focus {
+.nav-links:hover,
+.nav-links:focus {
   color: #404bbf;
+}
+
+.adress {
+  font-style: normal;
 }
 
 .header-adress {
@@ -45,7 +50,8 @@
   font-style: normal;
 }
 
-.header-adress:hover .header-adress:focus {
+.header-adress:hover,
+.header-adress:focus {
   color: #404bbf;
 }
 
@@ -75,7 +81,8 @@
   cursor: pointer;
 }
 
-.button:hover .button:focus {
+.button:hover,
+.button:focus {
   color: #404bbf;
 }
 
