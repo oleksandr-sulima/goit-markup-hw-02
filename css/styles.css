@@ -13,7 +13,7 @@
 }
 
 .logo {
-  color: var(--IRIS, #2e2f42);
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   line-height: 1.17;
@@ -23,7 +23,7 @@
 }
 
 .logo-web-part {
-  color: var(--IRIS, #4d5ae5);
+  color: var(--IRIS, #2e2f42);
 }
 
 .nav-links {
