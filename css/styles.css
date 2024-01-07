@@ -140,7 +140,7 @@
 }
 /* Section #4 */
 /* Our Portfolio */
-.our-portfolio-hedder {
+.our-portfolio-main-hedder {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
   font-weight: 700;
@@ -149,7 +149,7 @@
   text-transform: capitalize;
 }
 
-.our-portfolio h2 {
+.our-portfolio-headder {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -157,7 +157,7 @@
   letter-spacing: 0.4px;
 }
 
-.our-portfolio p {
+.our-portfolio-text {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
